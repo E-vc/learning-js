@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form - Exercise DOM, Events and Functions</title>
+    <link rel="stylesheet" href="css/style-form.css"/>
+    <script type="text/javascript" src="js/05-exercises.js"></script>
+</head>
+
+<body>
+    <h1>Form - Exercise DOM, Events and Functions</h1>
+    <div class="container">
+        <h2>Formulario</h2>
+        <form action="#" method="post" id="form" onsubmit="return false;" class="form">
+            <div class="form">
+                <label for="firstname">Name</label>
+                <input type="text" id="firstname" placeholder="Name" required />
+            </div>
+
+            <div class="form">
+                <label for="lastname">Surname</label>
+                <input type="text" id="lastname" placeholder="Surname" required />
+            </div>
+
+            <div class="form">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Age" />
+            </div>
+
+            <div class="form">
+                <button type="submit" id="submit" class="btn btn-info">Submit</button>
+            </div>
+            <br/>
+            <div class="alert alert-danger"></div>
+        </form>
+    </div>
+
+    <div class="container dashed">
+        <h2>User information</h2>
+        <hr/>
+    </div>
+</body>
+
+</html>

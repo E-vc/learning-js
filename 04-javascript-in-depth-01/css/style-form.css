@@ -1,0 +1,93 @@
+/* Tags */
+
+body {
+    font-family: 'Fira Code';
+}
+
+form .form {
+    display: table;
+}
+
+div .form {
+    display: table-row;
+}
+
+label, input {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: table-cell;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+label {
+    padding-right: 16px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+h2 {
+    text-align: center;
+    color: steelblue;
+}
+
+/* Classes */
+
+.container {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 24px;
+    padding: 24px;
+}
+
+.dashed {
+    border-radius: 20px;
+    border: 2px dashed lightskyblue;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: steelblue;
+    border-color: steelblue;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-danger {
+    color: darkred;
+    background-color: #f8d7da;
+    border-color: #f8d7da;
+}
+
+/* Validations styles */
+
+input:invalid {
+    border: 1px solid darkred;
+}
+
+input:valid {
+    border: 1px solid seagreen;
+}

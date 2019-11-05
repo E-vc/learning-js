@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in depth</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Course JS</h1>
+    <p>JavaScript in depth</p>
+
+    <h2>JSON - JavaScript Object Notation</h2>
+    <hr />
+    <span id="span"></span>
+
+    <div class="container dashed">
+        <h2>Movies Information</h2>
+        <hr />
+        <ul class="list-group" id="movie-list">
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Add movie</h2>
+        <form id="form" class="form">
+            <div class="form">
+                <label for="title">Title</label>
+                <input type="text" id="title" placeholder="Title" required />
+            </div>
+
+            <div class="form">
+                <label for="year">Year</label>
+                <input type="number" id="year" placeholder="Year" min="1950" required />
+            </div>
+
+            <div class="form">
+                <label for="overview">Overview</label>
+                <textarea name="overview" id="overview" placeholder="Overview"></textarea>
+            </div>
+
+            <div class="form">
+                <label for="status">Status</label>
+                <select id="status">
+                    <option value="released">Released</option>
+                    <option value="upcoming">Upcoming</option>
+                </select>
+            </div>
+
+            <div class="form text-right">
+                <button type="submit" id="submit" class="btn btn-info">Save</button>
+            </div>
+        </form>
+        <div class="alert"></div>
+    </div>
+
+    <div class="container text-center">
+        <img src="img/3d-glasses.png" class="icon" alt="icon movie" />
+        <img src="img/clapperboard.png" class="icon" alt="icon movie" />
+        <img src="img/director-chair.png" class="icon" alt="icon movie" />
+        <img src="img/film-reel.png" class="icon" alt="icon movie" />
+        <img src="img/frame.png" class="icon" alt="icon movie" />
+        <img src="img/tickets.png" class="icon" alt="icon movie" />
+
+        <div class="form">
+            <input type="text" id="search" placeholder="Search" />
+            <button type="button" class="btn" id="remove">🔍</button>
+        </div>
+    </div>
+
+    <!-- <script type="text/javaScript" src="js/01-json.js"></script> -->
+    <!-- <script type="text/javascript" src="js/02-localstorage.js"></script> -->
+    <script type="text/javascript" src="js/03-exercise-localstorage.js"></script>
+</body>
+
+</html>

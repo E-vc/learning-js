@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning jQuery UI</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- import jquery css -->
+  <link rel="stylesheet" href="../lib/jquery-ui/jquery-ui.min.css" />
+  <link rel="stylesheet" href="../lib/jquery-ui/jquery-ui.theme.min.css" />
+  <link rel="stylesheet" href="../lib/jquery-ui/jquery-ui.structure.min.css" />
+  <!-- import jquery css -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center"><u>jQuery UI</u> - Category: Interactions</h1>
+
+    <h3>Draggable and Resizable</h3>
+    <div class="shadow dragg-resiza move">First shadow</div>
+    <div class="shadow dragg-resiza move">Second shadow</div>
+    <div class="shadow dragg-resiza move">Third shadow</div>
+
+    <h3>Droppable</h3>
+    <div class="row">
+      <div class="col-6">
+        <div class="card size move" id="draggable">
+          <p>Drag me to my target.</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="shadow size" id="droppable">
+          <p id="text">Drop here.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <h3>Selectable</h3>
+        <div class="shadow">
+          <ul class="list-base" id="selectable">
+            <li class="list-base-item border-item">Deem</li>
+            <li class="list-base-item border-item">Incense</li>
+            <li class="list-base-item border-item">Kite</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-6">
+        <h3>Sortable</h3>
+        <div class="shadow">
+          <ul class="list-base" id="sortable">
+            <li class="list-base-item border-item move">
+              <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+              Quotation
+            </li>
+            <li class="list-base-item border-item move">
+              <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+              Sharp
+            </li>
+            <li class="list-base-item border-item move">
+              <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+              Thick
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="shadow">
+      <button type="button" class="btn btn-outline secondary text-uppercase" id="show-effect">Show effect</button>
+      <div class="card size" id="card-effect">
+        <p></p>
+      </div>
+    </div>
+    <hr />
+    <div class="shadow">
+      <div class="row">
+        <div class="col-6">
+          <h3>Widgets</h3>
+          <a class="text-decoration" href="#" title="Search" id="tooltip">&#128269; Tooltip</a>
+          <button type="button" class="btn btn-outline maroon" id="show-dialog">Dialog</button>
+          <div id="dialog">
+            <p>Are you sure?</p>
+            <button type="button" class="btn btn-outline orange">Confirm</button>
+          </div>
+          <div class="form-group">
+            <input type="text" class="input-element" placeholder="Datepicker" id="datepicker" />
+          </div>
+        </div>
+        <div class="col-6" id="tabs">
+          <ul class="list-horizontal">
+            <li class="list-horizontal-item">
+              <a href="#first-tab">First tab</a>
+            </li>
+            <li class="list-horizontal-item">
+              <a href="#second-tab">Second tab</a>
+            </li>
+            <li class="list-horizontal-item">
+              <a href="#third-tab">Third tab</a>
+            </li>
+          </ul>
+          <div id="first-tab">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+              in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          </div>
+          <div id="second-tab">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+              Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <div id="third-tab">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- import jquery script -->
+  <script type="text/javascript" src="../lib/jquery-ui/jquery-ui.min.js"></script>
+  <!-- import jquery script -->
+  <script type="text/javascript" src="../js/06-jquery-ui.js"></script>
+</body>
+
+</html>

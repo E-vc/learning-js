@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning jQuery</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center"><u>jQuery</u> - Category: Ajax</h1>
+    <div class="card">
+      <div class="row">
+        <pre class="prettyprint" id="json"></pre>
+      </div>
+      <button type="button" class="btn btn-outline maroon" id="toggle">&#128065;</button>
+      <div class="shadow">
+        <div class="row" id="characters">
+          <ul class="list-base" id="info-character">
+          </ul>
+        </div>
+        <div class="row" id="add-users">
+          <form class="form" action="https://reqres.in/api/users" method="post" id="form-add-users">
+            <div class="form-group">
+              <input type="text" class="input-element" placeholder="Name" id="name" required />
+            </div>
+            <div class="form-group">
+              <input type="text" class="input-element" placeholder="Job" id="job" required />
+            </div>
+            <div class="text-right">
+              <!-- <button type="button" class="btn btn-outline orange" id="add-user">Add</button> -->
+              <button type="submit" class="btn btn-outline orange">Add</button>
+            </div>
+            <div class="secondary" name="message"></div>
+          </form>
+          <ul class="list-horizontal" id="info-user"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="../js/05-ajax.js"></script>
+</body>
+
+</html>
