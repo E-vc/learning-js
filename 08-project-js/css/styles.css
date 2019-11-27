@@ -1,0 +1,360 @@
+body {
+  font-family: "Fira Code";
+  background-attachment: fixed;
+  background: url("../assets/img/background.jpg");
+}
+
+.container {
+  width: 80%;
+  padding: 20px !important;
+  margin: 0px auto;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.6) !important;
+}
+
+.navbar {
+  display: flex;
+  padding: 8px;
+  width: 120px;
+  height: 120px;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 0 0 50% 50%;
+  border: 0.1rem solid #ccc;
+  box-shadow: 0 25px 15px -10px #bbb;
+}
+
+.header-brand {
+  display: inline-block;
+  line-height: inherit;
+  white-space: nowrap;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0.1rem solid #ccc;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #dbece1cc !important;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.8rem 2.5rem;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav a:hover {
+  color: white;
+  border-radius: 12px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-brand .img-fluid {
+  vertical-align: middle;
+}
+
+.border-radius {
+  border-radius: 100px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+#content-principal {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+#content-aside {
+  width: 25%;
+}
+
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0.75rem 0px 0.75rem 0px;
+}
+
+.articles {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 0.75rem 0px 0.75rem 0px;
+}
+
+.article {
+  width: 100%;
+  margin: 8px 0px 8px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+
+.article .h2 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.article .date {
+  color: #6c757d;
+  display: block;
+  font-size: 80%;
+}
+
+.card {
+  padding: 16px;
+  display: block;
+  position: relative;
+  border-radius: 6px;
+  transition: box-shadow 208ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0 1px 1px 2px rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn {
+  outline: 0;
+  margin: 8px 0px 8px 0px;
+  cursor: pointer;
+  overflow: visible;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+.btn-outline {
+  border: 1px solid currentColor;
+  padding: 0 15px;
+  line-height: 24px;
+  background: transparent;
+}
+
+article .btn {
+  float: right;
+}
+
+.icon {
+  margin: 6px;
+  height: auto;
+  max-width: 20px;
+}
+
+.icon-user {
+  margin: 4px;
+  height: auto;
+  max-width: 60px;
+}
+
+p .h2 {
+  display: inline-block;
+}
+
+.article .icon {
+  vertical-align: middle;
+}
+
+.btn-outline:hover {
+  color: white;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.divider {
+  display: block;
+  margin: 6px 0px 6px 0px;
+  border-top-width: 1.2px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.12);
+}
+
+.sidebar {
+  width: 100%;
+  display: block;
+  flex-wrap: wrap;
+  margin: 8px 0px 8px 0px;
+  padding: 0.75rem 0px 0.75rem 0px;
+}
+
+.sidebar .card {
+  padding: 8px 0px 8px 0px;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.form-group {
+  flex: auto;
+  width: 100%;
+  display: block;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.125;
+  font-size: inherit;
+  position: relative;
+  font-family: "Fira Code";
+  border-top: 0.8em solid transparent;
+}
+
+.input-group {
+  margin: 0;
+  outline: 0;
+  width: 100%;
+  border: none;
+  font: inherit;
+  background: 0 0;
+  text-align: inherit;
+  color: currentColor;
+  vertical-align: bottom;
+  padding: 6px 2px 6px 2px;
+  border-bottom: 0.01em solid #eee;
+}
+
+.my-1 {
+  margin: 4px 0 4px 0;
+}
+
+.btn-darkslategray {
+  width: 100%;
+  display: block;
+  padding: 0 15px;
+  color: #fff;
+  line-height: 24px;
+  border: none;
+}
+
+.btn-darkslategray:hover {
+  background-color: transparent;
+}
+
+.my-2 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.orange {
+  color: orange;
+}
+
+.alert {
+  position: relative;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.form {
+  min-width: 150px;
+  width: 100%;
+  padding: 2rem;
+}
+
+footer {
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.container-footer {
+  width: 100%;
+  padding: 1rem 15px 1rem 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-footer p {
+  margin: 0 !important;
+  color: #2a3136;
+}
+
+.bx-wrapper .bx-viewport {
+  height: 300px !important;
+}
+
+.bx-wrapper {
+  margin-bottom: 20px !important;
+}
+
+#selector-theme {
+  position: fixed;
+  top: 25%;
+}
+
+.teal {
+  color: teal;
+  background-color: teal;
+  border: 1px solid teal;
+}
+
+.olive {
+  color: olive;
+  background-color: olive;
+  border: 1px solid olive;
+}

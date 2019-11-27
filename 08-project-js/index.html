@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <title>Page JS</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Styles CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link id="theme" rel="stylesheet" type="text/css" href="./css/theme-teal.css">
+  <link rel="stylesheet" type="text/css" href="./css/animations.css">
+  <!-- Styles CSS -->
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- JQuery -->
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- jQuery UI -->
+
+  <!-- bxSlider JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!-- bxSlider JS -->
+
+  <!-- Moment JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <!-- Moment JS-->
+</head>
+
+<body>
+
+  <div id="selector-theme">
+    <button type="button" class="btn teal">&Omega;</button>
+    <button type="button" class="btn olive">&Omega;</button>
+  </div>
+
+  <div class="container animated fast fadeIn">
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <div class="navbar">
+        <a class="header-brand text-uppercase" href="#">
+          <img src="./assets/img/leaf.jpg" class="img-fluid border-radius" alt="Leaf" />
+          Leaf JS
+        </a>
+      </div>
+      <!-- Navbar -->
+
+      <!-- Nav -->
+      <nav class="nav">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="#">Watch</a>
+        <a class="nav-link" href="./about-me.html">About me</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+      <!-- Nav -->
+    </header>
+    <!-- Header -->
+
+    <!-- Slider -->
+    <div class="slider">
+      <div><img src="./assets/img/ocean.jpg" title="Ocean" /></div>
+      <div><img src="./assets/img/red.jpg" title="Leaves red" /></div>
+      <div><img src="./assets/img/leaves.jpg" title="Leaves green" /></div>
+    </div>
+    <!-- Slider -->
+
+    <!-- Content principal -->
+    <section id="content-principal">
+      <div class="articles">
+        <!-- Dynamic posts -->
+      </div>
+      <!-- Content aside -->
+      <aside id="content-aside">
+        <div class="sidebar text-right">
+          <div class="form-group">
+            <input type="text" autocomplete="off" id="search" placeholder="Search for..." class="input-group" />
+          </div>
+          <button type="button" class="btn btn-outline color">Search</button>
+        </div>
+        <div class="card my-2 text-center">
+          <p class="card-header color text-uppercase">Sign in to Leaf JS</p>
+          <img src="./assets/icon/users.svg" alt="users" class="icon-user" />
+          <button type="button" class="btn btn-darkslategray" id="sign-in">Sign in</button>
+        </div>
+        <div class="card my-2">
+          <p id="get-name" class="card-header color text-uppercase text-center">Who I am?</p>
+          <div class="card-body text-justify">
+            I'm Esteban Velasquez from Medellín. Developer of applications using <em class="orange">JS</em> (Angular,
+            NodeJS,
+            and Ionic). I have knowledge of C # and Java, with these bases I look for projects to improve my
+            skills as developer.
+          </div>
+        </div>
+      </aside>
+      <!-- Content aside -->
+    </section>
+    <!-- Content principal -->
+
+    <!-- Dialog Sign in -->
+    <div id="dialog-sign-in" title="Create new user">
+      <p class="alert alert-info" role="alert">All form fields are required.</p>
+      <form class="form" autocomplete="off">
+        <div class="form-group">
+          <input type="text" class="input-group" placeholder="Name" id="name" required />
+        </div>
+        <div class="form-group">
+          <input type="text" class="input-group" placeholder="Email" id="email" required />
+        </div>
+        <div class="form-group">
+          <input type="password" class="input-group" placeholder="Password" id="password" required />
+        </div>
+      </form>
+    </div>
+    <!-- Dialog Sign in -->
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-footer">
+      <p class="text-center">
+        &copy; 2019 JavaScript. All rights reserved.
+        <a id="to-top" class="float-right btn btn-outline color">&uarr;</a>
+      </p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- Scripts JS -->
+  <script type="text/javascript" src="./js/main.js"></script>
+  <!-- Scripts JS -->
+</body>
+
+</html>
