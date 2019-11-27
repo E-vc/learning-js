@@ -1,0 +1,39 @@
+.header-brand {
+  color: olive;
+}
+
+.nav-link {
+  color: olive;
+}
+
+.nav a:hover {
+  background-color: olive;
+}
+
+.btn-outline:hover {
+  background: olive;
+}
+
+.input-group:focus {
+  border-bottom-color: olive;
+}
+
+.btn-darkslategray:hover {
+  color: olive;
+  border: 1px solid olive;
+}
+
+.btn-darkslategray {
+  background-color: olive;
+}
+
+.alert-info {
+  color: olive;
+  border-color: rgb(0, 128, 64);
+  background-color: rgba(0, 128, 64, 0.16);
+}
+
+.color {
+  color: olive;
+}
+

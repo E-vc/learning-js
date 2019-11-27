@@ -1,0 +1,38 @@
+.header-brand {
+  color: teal;
+}
+
+.nav-link {
+  color: teal;
+}
+
+.nav a:hover {
+  background-color: teal;
+}
+
+.btn-outline:hover {
+  background: teal;
+}
+
+.input-group:focus {
+  border-bottom-color: teal;
+}
+
+.btn-darkslategray:hover {
+  color: teal;
+  border: 1px solid teal;
+}
+
+.btn-darkslategray {
+  background-color: teal;
+}
+
+.alert-info {
+  color: teal;
+  border-color: rgba(0, 128, 128);
+  background-color: rgba(0, 128, 128, 0.16);
+}
+
+.color {
+  color: teal;
+}
